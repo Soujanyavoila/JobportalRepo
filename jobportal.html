@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Job portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!---navbar-->
+   <header class="bg-white shadow">
+    <nav class="container navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/workindia.webp" alt="workindia logo" class="w-75"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a style="color: blueviolet; padding-inline: 20px;" class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: blueviolet; padding-inline: 20px;" class="nav-link" href="#">Jobs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a style="color: blueviolet; padding-inline: 20px;" class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Employers
+                </a>
+                
+              </li>
+              <li class="nav-item">
+                <a style="color: blueviolet; padding-inline: 20px;" class="nav-link " aria-disabled="true">Candidates</a>
+              </li>
+              <li class="nav-item">
+                <a style="background-color: rgb(176, 108, 240); color: white; padding-inline: 20px;" class="nav-link rounded " aria-disabled="true">Login</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Find a job" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   </header>
+   <!-----Hero section-->
+   <section class="py-5" style="background-image: linear-gradient(to top,rgb(167, 213, 219),rgb(238, 246, 251));">
+<div class="container text-center">
+    <h1 class="fs-1 fw-semibold ">Find Your Dream Job</h1>
+    <p class=" fs-5">Search through thousands of job listings to find the perfect fit for you.</p>
+    <img src="./images/landing_hero.webp" alt="hero img" width="500"/>
+    <div class="d-flex justify-content-center gap-2">
+        <button type="button" class="btn btn-outline-primary w-25">Hire Now</button>
+        <button type="button" class="btn btn-outline-primary w-25">Get Job</button>
+        </div>
+    </div>
+   </section>
+   <!----Top Feature Companies------->
+   <section class="py-5 container">
+    <h2 class="text-center fw-semibold ">Top Feature Companies</h2>
+    <div class="row py-5">
+<!----------->
+<div class="col"><img width="120" src="./images/tata.webp" alt=""></div>
+<div class="col"><img width="120" src="./images/wipro.webp" alt=""></div>
+<div class="col"><img width="120" src="./images/infosys.webp" alt=""></div>
+<div class="col"><img width="120" src="./images/file_accenture-min.webp" alt=""></div>
+<div class="col"><img width="120" src="./images/file_techmahindra-min.webp" alt=""></div>
+<div class="col"><img width="120" src="./images/file_mphasis-min.webp" alt=""></div>
+    </div>
+    <div class="row py-4">
+<!----------->
+<div class="col"><img width="120" src="./images/tata.webp" alt=""></div>
+<div class="col"><img width="120" src="./images/wipro.webp" alt=""></div>
+<div class="col"><img width="120" src="./images/infosys.webp" alt=""></div>
+<div class="col"><img width="120" src="./images/file_accenture-min.webp" alt=""></div>
+<div class="col"><img width="120" src="./images/file_techmahindra-min.webp" alt=""></div>
+<div class="col"><img width="120" src="./images/file_mphasis-min.webp" alt=""></div>
+    </div>
+    
+   </section>
+   <!------Premium Jobs------->
+   <section class=" py-5 bg-danger-subtle">
+    <div class="container">
+        <h2 class="text-center fw-semibold ">Premium Jobs</h2>
+        <!-----cards-->
+        <div class="row py-4">
+            <div class="col-3">
+              <div class="card border-danger-subtle">
+                <div class="card-body">
+                  <h5 class="card-title">Software Engineer</h5>
+                  <p class="card-text">Company ABC</p>
+                  <p class="card-text">Location: New York, NY</p>
+                  <a href="#" class="btn btn btn-outline-secondary">Apply now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+                <div class="card border-danger-subtle">
+                    <div class="card-body">
+                      <h5 class="card-title">Marketing Manager</h5>
+                      <p class="card-text">Company ABC</p>
+                      <p class="card-text">Location: New York, NY</p>
+                      <a href="#" class="btn btn btn-outline-secondary">Apply now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card border-danger-subtle">
+                    <div class="card-body">
+                      <h5 class="card-title">Data Analyst</h5>
+                      <p class="card-text">Company ABC</p>
+                      <p class="card-text">Location: New York, NY</p>
+                      <a href="#" class="btn btn btn-outline-secondary">Apply now</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-3">
+                <div class="card border-danger-subtle">
+                    <div class="card-body">
+                      <h5 class="card-title">Software Engineer</h5>
+                      <p class="card-text">Company ABC</p>
+                      <p class="card-text">Location: New York, NY</p>
+                      <a href="#" class="btn btn btn-outline-secondary">Apply now</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+   </section>
+   <!------Employers------->
+   <section class="bg-light  py-5"> 
+    <h2 class="text-center fw-semibold ">Employers</h2>
+    <div class="container">
+        <div class=" row py-5">
+            <div class="col-sm-6 mb-3 mb-sm-0 ">
+              <div class="card shadow-lg">
+                <div class="card-body">
+                  <h5 class="card-title">Posting Jobs</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sodales est. Proin ac nibh vitae nunc pharetra ultricies.</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card shadow-lg">
+                <div class="card-body ">
+                  <h5 class="card-title">Finding Candidates</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sodales est. Proin ac nibh vitae nunc pharetra ultricies.</p>
+                  <a href="#" class="btn btn-primary">Learn  More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+   </section>
+    <!------Candidate------->
+    <section class="bg-primary-subtle  py-5"> 
+        <h2 class="text-center fw-semibold ">Candidate</h2>
+        <div class="container">
+            <div class=" row py-5">
+                <div class="col-sm-6 mb-3 mb-sm-0 ">
+                  <div class="card shadow-lg">
+                    <div class="card-body">
+                      <h5 class="card-title">Finding Jobs
+                    </h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sodales est. Proin ac nibh vitae nunc pharetra ultricies.</p>
+                      <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card shadow-lg">
+                    <div class="card-body ">
+                      <h5 class="card-title">Applying Effectively
+                    </h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sodales est. Proin ac nibh vitae nunc pharetra ultricies.</p>
+                      <a href="#" class="btn btn-primary">Learn  More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+       </section>
+       <!-------FAQ-->
+       <section class="container py-5">
+        <div class="row">
+            <!----accodion-->
+            <div class="col-8">
+                <h2 class=" fw-semibold mb-2 ">FAQ</h2>
+                
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            How do I create an account?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            How can I apply for a job?
+
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Can I edit my application after submission?
+
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!----login-->
+            <div class="col-4 bg-primary-subtle px-4 py-3 rounded shadow h-50">
+                <h2 class=" fw-semibold mb-2 ">Login</h2>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+        </section>
+        <!----footer-->
+        <footer class="py-1 bg-light d-flex justify-content-center align-items-center">
+<p>© 2024 JobPortal. All rights reserved.</p>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
